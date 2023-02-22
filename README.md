@@ -16,6 +16,7 @@ rosrun map_publisher map_publisher_node
 # Example Gazebo Plugin for Odometry
 You can add this to your URDF file.
 ```
+<myxml>
   <gazebo>
     <plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
       <alwaysOn>true</alwaysOn>
@@ -28,4 +29,6 @@ You can add this to your URDF file.
       <rpyOffsets>0 0 0</rpyOffsets>
     </plugin>
   </gazebo> 
+ </myxml>
+
   ```
